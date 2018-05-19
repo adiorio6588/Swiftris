@@ -22,6 +22,7 @@
 		E3B5CA2720B0A80D000FCB2F /* levelup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3B5CA2220B0A80D000FCB2F /* levelup.mp3 */; };
 		E3B5CA2820B0A80D000FCB2F /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3B5CA2320B0A80D000FCB2F /* theme.mp3 */; };
 		E3B5CA2A20B0A83C000FCB2F /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E3B5CA2920B0A83B000FCB2F /* Sprites.atlas */; };
+		E3B5CA2C20B0CCE4000FCB2F /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5CA2B20B0CCE3000FCB2F /* Array2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		E3B5CA2220B0A80D000FCB2F /* levelup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = levelup.mp3; sourceTree = "<group>"; };
 		E3B5CA2320B0A80D000FCB2F /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theme.mp3; sourceTree = "<group>"; };
 		E3B5CA2920B0A83B000FCB2F /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		E3B5CA2B20B0CCE3000FCB2F /* Array2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				E3B5C9FC20B09237000FCB2F /* Info.plist */,
 				E3B5CA2920B0A83B000FCB2F /* Sprites.atlas */,
 				E3B5CA1E20B0A80D000FCB2F /* Sounds */,
+				E3B5CA2B20B0CCE3000FCB2F /* Array2D.swift */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3B5C9F120B09206000FCB2F /* GameScene.swift in Sources */,
+				E3B5CA2C20B0CCE4000FCB2F /* Array2D.swift in Sources */,
 				E3B5C9F320B09206000FCB2F /* GameViewController.swift in Sources */,
 				E3B5C9EB20B09206000FCB2F /* AppDelegate.swift in Sources */,
 			);
